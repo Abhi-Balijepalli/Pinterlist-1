@@ -1,0 +1,61 @@
+{% extends "pinToList/base.html" %}
+{% load static %}
+{% block content %}
+<div class="row">
+    <div class="col-11 return-list">
+     
+            <div class="return-list-header p-2 ">
+                <h1 >Looks like you need...</h1> 
+                <p>Check the items you already have to delete them from your list.</p>
+            </div>
+            
+           
+            
+       
+    </div>            
+</div>
+
+<div class="row">
+    <div class="col-12">
+        <div class="demo p-2">
+            <p>Gif giving a demo of rapido</p>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-12">
+        <div class="text-box p-3">
+            <h2>How it works</h2>
+            <p>Say which pins you want the ingredients for and Rapido thoughtfully reads the essay long story leading up to the recipe AND returns the ingredients you need to buy! 
+                All for absolutely no cost!</p>
+            
+        </div>
+    </div>
+</div>
+
+<div class="row ">
+    <div class="col-12">
+       
+        <div class="showcase-bottom p-2 try-it">
+            <a href="#" class="btn btn-curve-right">Try It Out</a>
+            <img class="showcase-image" src="{% static 'pinToList/media/images/happy-user.svg' %}" alt="">
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-1"></div>
+    <div class="col-11 return-list return-list-lower">
+     
+            <!-- <div class=""> -->
+                
+                <p>Send your list to the store and let them do the work of shopping for you!
+                    <br><br>
+                    Send your list to…</p>
+            <!-- </div> -->
+    </div>            
+</div>
+    
+
+    <footer></footer>
+{% endblock content %}

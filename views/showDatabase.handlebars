@@ -1,0 +1,58 @@
+<style>
+    #i-cover {
+        display: flex;
+        width: 400px;
+        min-height: 450px;
+        float: left;
+        height: auto;
+        padding: 10px;
+        margin: 120px 10%;
+        flex-wrap: wrap;
+        background-color: #da5b5b;
+        border-radius: 20px;
+        box-shadow: 0 10px 50px #271111;
+        transform: scale(1.2);
+        overflow-y: auto;
+        overflow-x: 0;
+        margin-bottom: 5%;
+        justify-content: space-between;
+    }
+
+    .-tb {
+        flex: 0 1 28%;
+        margin: 2px;
+        padding: 20px;
+    }
+    h6{
+        font-weight: bold;
+        text-align: center;
+        color: rgba(255, 255, 255, 0.753);
+    }
+    h5 {
+        text-align: center;
+        border-radius: 20px;
+        font-weight: bold;
+        box-shadow: 0 10px 30px #271111, 0 0 0 4px #f7efef;
+    }
+
+    .row{
+        list-style-type: circle;
+        text-align: left;
+    }
+</style>
+
+{{#each items}}
+<div id="i-cover">
+    <form method="-post" action="">
+        <h5>Ingredients:</h5>
+        <div class="-tb">
+            <div class="row">
+                {{#each ingredients}}
+                <ol>{{this}}</ol>
+                {{/each}}
+            </div>
+        </div>
+        <h6>{{recipeId}}</h6>
+    </form>
+</div>
+ {{/each}}

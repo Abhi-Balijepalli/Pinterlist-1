@@ -1,0 +1,51 @@
+
+<style>
+    #i-cover {
+        position:fixed;
+        top: 37%;
+        left: 0;
+        right: 0;
+        width: 450px;
+        min-height: 430px;
+        height: auto;
+        padding: 20px;
+        margin: -83px auto 0 auto;
+        background-color: #da5b5b;
+        border-radius: 20px;
+        box-shadow: 0 10px 40px #271111, 0 0 0 20px #ffffffeb;
+        transform: scale(1.2);
+        overflow: auto;
+    }
+    .-tb{
+        display: table;
+        width: 100%;
+    }   
+</style>
+
+{{!-- <div id="rcorners"> --}}
+<div id="i-cover">
+    <form method="-post" action="">
+        <div class="-tb">
+            <div class="row">
+                <div class="col-12 add-item-container">
+                    <h3>The ingredients:</h3>
+                    {{!-- <input class="btn add-item-btn" id="add-item" value="+ Item"></input>
+                    <!-- <a href="#" class="btn add-item-btn" id="add-item"> + Item </a> -->
+                    <a href="{% url 'pinToList-get_pin' %}" class="btn add-item-btn" id="add-pin"> + Pinterest Recipe</a> --}}
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12">
+                    <ul class="return-recipe-list" id="item_list">
+                        {{#each items}}
+
+                        <li class="return-recipe-item is_checked">{{ this }}</li>
+                        {{/each}}
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
