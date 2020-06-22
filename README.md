@@ -1,2 +1,2 @@
 # Pinterlist-1
-This was made before the MERN stack implementation. 
+Made in Collaboration with Dylan Albertazzi and Lucien Haj.
