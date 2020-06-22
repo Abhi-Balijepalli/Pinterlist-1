@@ -1,0 +1,33 @@
+{
+  "name": "final-project-pintorlist",
+  "version": "1.0.0",
+  "description": "Turn a Pinterest pin into a grocery list",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js",
+    "dev": "nodemon server.js",
+    "build": "handlebars views/partials/ingredient.handlebars -f static/pinToList/ingredientTemplate.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/osu-cs290-sp20/final-project-pintorlist.git"
+  },
+  "author": "Dylan Albertazzi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/osu-cs290-sp20/final-project-pintorlist/issues"
+  },
+  "homepage": "https://github.com/osu-cs290-sp20/final-project-pintorlist#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.4",
+    "mongodb": "^3.5.8",
+    "mongoose": "^5.9.18",
+    "nodemon": "^2.0.4",
+    "pug": "^3.0.0"
+  },
+  "devDependencies": {
+    "handlebars": "^4.7.6"
+  }
+}

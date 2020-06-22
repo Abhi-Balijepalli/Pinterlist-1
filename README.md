@@ -1,2 +1,2 @@
-# Pinterlist-1
-Made in Collaboration with Dylan Albertazzi and Lucien Haj.
+# final-project-pintorlist
+This app takes the url of a Pinterest recipe pin and returns a grocery list of the needed items.
