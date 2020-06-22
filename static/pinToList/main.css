@@ -1,0 +1,380 @@
+@font-face {
+  src: url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+  font-family: 'Lato', sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background: #fff;
+  color: #333333;
+  margin-top: 5rem;
+  margin:0;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #000000;
+  font-family: Lato;
+  letter-spacing: 0.15rem;
+}
+span {
+  font-size: 0.8rem;
+}
+
+.showcase-header h1 {
+  font-weight: 700;
+  font-size: 0.9rem;
+  
+  line-height: 1.5rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+.return-list-header h1 {
+  font-weight: 700;
+  font-size: 0.9rem;
+  
+  line-height: 1.5rem;
+  color: white;
+  padding-top: 0.6rem;
+ 
+}
+.return-list-header p {
+  color: white;
+}
+
+h2 {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+p {
+  font-size: 0.7rem;
+  line-height: 1.3rem;
+  letter-spacing: 0.08rem;
+  
+}
+
+ul {
+  margin: 0;
+}
+
+.bg-steel {
+  background-color: #5f788a;
+}
+
+.site-header .navbar-nav .nav-link {
+  color: #cbd5db;
+}
+
+.site-header .navbar-nav .nav-link:hover {
+  color: #ffffff;
+}
+
+.site-header .navbar-nav .nav-link.active {
+  font-weight: 500;
+}
+
+.content-section {
+  background: #ffffff;
+  padding: 10px 20px;
+  border: 1px solid #dddddd;
+  border-radius: 3px;
+  margin-bottom: 20px;
+}
+
+.article-title {
+  color: #444444;
+}
+
+a.article-title:hover {
+  color: #428bca;
+  text-decoration: none;
+}
+
+.article-content {
+  white-space: pre-line;
+}
+
+.article-img {
+  height: 65px;
+  width: 65px;
+  margin-right: 16px;
+}
+
+.article-metadata {
+  padding-bottom: 1px;
+  margin-bottom: 4px;
+  border-bottom: 1px solid #e3e3e3
+}
+
+.article-metadata a:hover {
+  color: #333;
+  text-decoration: none;
+}
+
+.article-svg {
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+}
+
+.account-img {
+  height: 125px;
+  width: 125px;
+  margin-right: 20px;
+  margin-bottom: 16px;
+}
+
+.account-heading {
+  font-size: 2.5rem;
+}
+
+
+.col-12 {
+  padding: 0px;
+}
+
+.showcase {
+  background: #ffffff;
+  
+}
+nav {
+  border-bottom: solid;
+  border-bottom-width: 1px;
+}
+.navbar {
+  margin-bottom: 0;
+}
+
+.navbar-brand > img {
+    /* max-width: 70vw; */
+    width: 262.5px;
+    
+}
+
+.btn-main {
+  background-color: #ffffff;
+  border-color: #DD99A1;
+  border-width: 3px;
+}
+
+.navbar-toggler {
+  visibility: hidden;  
+  padding: 0.25rem 0.5rem;
+}  
+
+.navbar-toggler-icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: baseline;
+  /* line-height: 0.8em;
+  white-space: nowrap; */
+  visibility: visible;
+  color: #000000;
+}
+
+.showcase-bottom {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 3rem;
+  margin-top:1rem;
+}
+
+img.showcase-image {
+  align-self: flex-end;
+}
+
+.btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: flex-end;
+  background-color: #22D596;
+  height: 2.8rem;
+  color: #fff;
+  padding: 0.25rem 1.4rem;
+  
+  letter-spacing: 0.1rem;
+  /* vertical-align: top; */
+  /* line-height: 3; */
+}
+
+
+.btn.btn-curve-left{
+  border-radius: 30px 0px 30px 0px;
+}
+.btn.btn-curve-right{
+  border-radius: 0px 30px 0px 30px;
+}
+
+.btn.grocery-btn {
+  display: flex;
+  border-color: #22D596;
+  background-color: white;
+  border-radius: 30px 30px 30px 30px;
+  border-width: 2px;
+}
+
+.try-it {
+  margin-top: 5rem;
+}
+
+.return-list {
+  display:flex;
+  align-items: center;
+  background-color: #22D596;
+  margin-top: 2em;
+  border-radius: 0px 30px 30px 0px;
+  box-shadow: -20px 10px 9px rgb(211, 211, 211);
+  color: white;
+  height: 8rem;
+}
+
+.return-list-lower {
+  border-radius: 30px 0px 0px 30px;
+  padding-left:25px;
+}
+
+
+.grocery-button-div {
+  display: flex;
+  justify-content: center;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  align-items: center;
+}
+
+
+
+img.grocery-image {
+  max-width: 60%;
+  align-self: center;
+  
+}
+
+.copy-list-text {
+  justify-content: flex-end;
+  padding: 0;
+}
+
+a.btn-copy-list {
+  
+  justify-content: center;
+  align-self: center;
+  width: 100%; 
+  font-size: 0.8rem;
+ /* align-items: center; */
+}
+
+img.copy-icon {
+  display: inline;
+  vertical-align: middle;
+}
+
+
+ul.return-recipe-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+  padding-left: 5vw;
+  width: 100%;
+  justify-content: flex-start;
+
+}
+
+li {
+  list-style-type: none;
+}
+li.return-recipe-item {
+
+  background: url('media/images/checkbox-outline.svg') no-repeat 7px 28px transparent;
+  list-style-type: none;
+  margin: 0;
+  padding: 0px 0px 1px 60px;
+  width: 100%;
+  height: 80px;
+  line-height: 80px;
+  text-align: left;
+  font-size: 0.8rem;
+  vertical-align: middle;
+  list-style-position:inside;
+  position: relative;
+
+}
+
+/* Border styling */
+li.return-recipe-item:before {
+  content : "";
+  position: absolute;
+  display: block;
+  right    : 0;
+  top  : 0;
+  height  : 1px;
+  width   : 81vw;  /* or 100px */
+  border-bottom:2px solid rgba(0, 0, 0, 0.29);
+}
+
+/* figure out how to get border for last child */
+li.return-recipe-item:last-child:before {
+  content : "";
+  /* position: absolute; */
+  /* display: block; */
+  right    : 0;
+  bottom  : 0;
+  height  : 2px;
+  width   : 81vw;  /* or 100px */
+  border-bottom:2px solid rgba(0, 0, 0, 0.29);
+}
+
+.add-item-container {
+  display: flex;
+  margin-top: 3vh;
+  justify-content: space-around;
+}
+
+.add-item-btn {
+  /* max-width: 250px; */
+}
+
+label.add-item-btn{
+  font-size: 0.7rem;
+}
+
+.demo {
+  display: flex;
+  /* align-items: flex-end; */
+  justify-content: space-around;
+}
+
+.demo form {
+  display: flex;
+  justify-content: space-around;
+  /* margin:0; */
+}
+
+.demo p {
+  display: flex;
+  align-items:center;
+  margin: 0;
+}
+
+.demo input[type=text] {
+  border: 0;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.29);
+}
+
+button.btn.submit-btn {
+  height: 1.8rem;
+  font-size:0.8rem;
+  margin-left: 50px;
+  padding: 0.25rem 0.8rem
+}
+
+
+li.is_checked {
+  background: url('media/images/checkbox.svg') no-repeat 7px 28px transparent;
+  text-decoration: line-through;
+}

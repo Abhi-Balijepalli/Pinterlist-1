@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #22d596;
+        stroke: #22d596;
+      }
+    </style>
+  </defs>
+  <g id="Icon_ionic-ios-checkbox-outline" data-name="Icon ionic-ios-checkbox-outline" transform="translate(-4 -4)">
+    <path id="Path_47" data-name="Path 47" class="cls-1" d="M27.417,4.5H6.583A2.081,2.081,0,0,0,4.5,6.583V27.417A2.081,2.081,0,0,0,6.583,29.5H27.417A2.081,2.081,0,0,0,29.5,27.417V6.583A2.081,2.081,0,0,0,27.417,4.5Zm.26,22.656a.522.522,0,0,1-.521.521H6.844a.522.522,0,0,1-.521-.521V6.844a.522.522,0,0,1,.521-.521H27.156a.522.522,0,0,1,.521.521Z"/>
+  </g>
+</svg>
